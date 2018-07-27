@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0D8B05CFD67D5585D2F8B5 /* Pods_iLocateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160E3519F44E5129A7001362 /* Pods_iLocateUITests.framework */; };
+		810479E38BB2F9602A67C316 /* Pods_iLocateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368F108C097D4E2AE839523 /* Pods_iLocateTests.framework */; };
+		8D61A7329E91A52F9F6501F4 /* Pods_iLocate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DEF8C6010F6E566574B5DC /* Pods_iLocate.framework */; };
+		B1073F581FD8E5B400C18D36 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1073F571FD8E5B400C18D36 /* LocationSearchTable.swift */; };
+		B11483AF1FA93A3B00A73E3F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11483AE1FA93A3B00A73E3F /* ProfileViewController.swift */; };
+		B11483B11FA93A4D00A73E3F /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11483B01FA93A4D00A73E3F /* QRCodeViewController.swift */; };
+		B11483B31FA93B8C00A73E3F /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11483B21FA93B8C00A73E3F /* ContactsTableViewController.swift */; };
+		B11483B51FA95B3A00A73E3F /* ReadQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11483B41FA95B3A00A73E3F /* ReadQRCodeViewController.swift */; };
+		B11483B71FA9886300A73E3F /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11483B61FA9886300A73E3F /* ContactModel.swift */; };
+		B13952FE1FD7576800A320A2 /* NearMeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13952FD1FD7576800A320A2 /* NearMeChatViewController.swift */; };
+		B18792191FAB7EBB0000534B /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18792181FAB7EBB0000534B /* NearMeViewController.swift */; };
+		B187921B1FAB80220000534B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B187921A1FAB80220000534B /* CoreLocation.framework */; };
+		B187921D1FABCD090000534B /* ScanQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B187921C1FABCD090000534B /* ScanQRCodeViewController.swift */; };
+		C9758E3E1FDEF7CA008B3C98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9758E3D1FDEF7CA008B3C98 /* GoogleService-Info.plist */; };
+		FB0126791FA785630082753E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0126781FA785630082753E /* LoginViewController.swift */; };
+		FB01267B1FA787830082753E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01267A1FA787830082753E /* ForgotPasswordViewController.swift */; };
+		FB01267D1FA78BD90082753E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01267C1FA78BD90082753E /* SignUpViewController.swift */; };
+		FB01267F1FA792FF0082753E /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01267E1FA792FF0082753E /* DesignableUITextField.swift */; };
+		FB0126811FA7931A0082753E /* DesignableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0126801FA7931A0082753E /* DesignableUIButton.swift */; };
+		FB1F499E1FA78363004E35A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F499D1FA78363004E35A1 /* AppDelegate.swift */; };
+		FB1F49A31FA78363004E35A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1F49A11FA78363004E35A1 /* Main.storyboard */; };
+		FB1F49A51FA78363004E35A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1F49A41FA78363004E35A1 /* Assets.xcassets */; };
+		FB1F49A81FA78363004E35A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1F49A61FA78363004E35A1 /* LaunchScreen.storyboard */; };
+		FB1F49B31FA78363004E35A1 /* iLocateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F49B21FA78363004E35A1 /* iLocateTests.swift */; };
+		FB1F49BE1FA78363004E35A1 /* iLocateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1F49BD1FA78363004E35A1 /* iLocateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB1F49AF1FA78363004E35A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1F49921FA78363004E35A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1F49991FA78363004E35A1;
+			remoteInfo = iLocate;
+		};
+		FB1F49BA1FA78363004E35A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1F49921FA78363004E35A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB1F49991FA78363004E35A1;
+			remoteInfo = iLocate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160E3519F44E5129A7001362 /* Pods_iLocateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLocateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BC7E5865409ED5DFE8FBB2 /* Pods-iLocateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLocateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLocateTests/Pods-iLocateTests.release.xcconfig"; sourceTree = "<group>"; };
+		19D254B4633908B4C250E6AA /* Pods-iLocate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLocate.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLocate/Pods-iLocate.release.xcconfig"; sourceTree = "<group>"; };
+		35DEF8C6010F6E566574B5DC /* Pods_iLocate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLocate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E87B3CF8BA7CF00F2AC79 /* Pods-iLocate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLocate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLocate/Pods-iLocate.debug.xcconfig"; sourceTree = "<group>"; };
+		50289E2095F9D37A1F4F53CF /* Pods-iLocateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLocateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLocateUITests/Pods-iLocateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A27FEDC74F965C4017A14C62 /* Pods-iLocateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLocateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iLocateTests/Pods-iLocateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1073F571FD8E5B400C18D36 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		B11483AE1FA93A3B00A73E3F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B11483B01FA93A4D00A73E3F /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		B11483B21FA93B8C00A73E3F /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		B11483B41FA95B3A00A73E3F /* ReadQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadQRCodeViewController.swift; sourceTree = "<group>"; };
+		B11483B61FA9886300A73E3F /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		B13952FD1FD7576800A320A2 /* NearMeChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeChatViewController.swift; sourceTree = "<group>"; };
+		B18792181FAB7EBB0000534B /* NearMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
+		B187921A1FAB80220000534B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B187921C1FABCD090000534B /* ScanQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRCodeViewController.swift; sourceTree = "<group>"; };
+		C9758E3D1FDEF7CA008B3C98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC881520A4FE86B4B0B4AEF3 /* Pods-iLocateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iLocateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iLocateUITests/Pods-iLocateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D368F108C097D4E2AE839523 /* Pods_iLocateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iLocateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0126781FA785630082753E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB01267A1FA787830082753E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		FB01267C1FA78BD90082753E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FB01267E1FA792FF0082753E /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		FB0126801FA7931A0082753E /* DesignableUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIButton.swift; sourceTree = "<group>"; };
+		FB1F499A1FA78363004E35A1 /* iLocate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLocate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1F499D1FA78363004E35A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB1F49A21FA78363004E35A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB1F49A41FA78363004E35A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB1F49A71FA78363004E35A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB1F49A91FA78363004E35A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1F49AE1FA78363004E35A1 /* iLocateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLocateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1F49B21FA78363004E35A1 /* iLocateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLocateTests.swift; sourceTree = "<group>"; };
+		FB1F49B41FA78363004E35A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1F49B91FA78363004E35A1 /* iLocateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLocateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1F49BD1FA78363004E35A1 /* iLocateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLocateUITests.swift; sourceTree = "<group>"; };
+		FB1F49BF1FA78363004E35A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB1F49971FA78363004E35A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B187921B1FAB80220000534B /* CoreLocation.framework in Frameworks */,
+				8D61A7329E91A52F9F6501F4 /* Pods_iLocate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1F49AB1FA78363004E35A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810479E38BB2F9602A67C316 /* Pods_iLocateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1F49B61FA78363004E35A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0D8B05CFD67D5585D2F8B5 /* Pods_iLocateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB49132B0770381E9314298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B187921A1FAB80220000534B /* CoreLocation.framework */,
+				35DEF8C6010F6E566574B5DC /* Pods_iLocate.framework */,
+				D368F108C097D4E2AE839523 /* Pods_iLocateTests.framework */,
+				160E3519F44E5129A7001362 /* Pods_iLocateUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48A4039D99846956FAF1F9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409E87B3CF8BA7CF00F2AC79 /* Pods-iLocate.debug.xcconfig */,
+				19D254B4633908B4C250E6AA /* Pods-iLocate.release.xcconfig */,
+				A27FEDC74F965C4017A14C62 /* Pods-iLocateTests.debug.xcconfig */,
+				19BC7E5865409ED5DFE8FBB2 /* Pods-iLocateTests.release.xcconfig */,
+				50289E2095F9D37A1F4F53CF /* Pods-iLocateUITests.debug.xcconfig */,
+				CC881520A4FE86B4B0B4AEF3 /* Pods-iLocateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB1F49911FA78363004E35A1 = {
+			isa = PBXGroup;
+			children = (
+				C9758E3D1FDEF7CA008B3C98 /* GoogleService-Info.plist */,
+				FB1F499C1FA78363004E35A1 /* iLocate */,
+				FB1F49B11FA78363004E35A1 /* iLocateTests */,
+				FB1F49BC1FA78363004E35A1 /* iLocateUITests */,
+				FB1F499B1FA78363004E35A1 /* Products */,
+				D48A4039D99846956FAF1F9D /* Pods */,
+				7AB49132B0770381E9314298 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1F499B1FA78363004E35A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F499A1FA78363004E35A1 /* iLocate.app */,
+				FB1F49AE1FA78363004E35A1 /* iLocateTests.xctest */,
+				FB1F49B91FA78363004E35A1 /* iLocateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1F499C1FA78363004E35A1 /* iLocate */ = {
+			isa = PBXGroup;
+			children = (
+				FB0126781FA785630082753E /* LoginViewController.swift */,
+				FB1F499D1FA78363004E35A1 /* AppDelegate.swift */,
+				FB1F49A11FA78363004E35A1 /* Main.storyboard */,
+				B13952FD1FD7576800A320A2 /* NearMeChatViewController.swift */,
+				B18792181FAB7EBB0000534B /* NearMeViewController.swift */,
+				B1073F571FD8E5B400C18D36 /* LocationSearchTable.swift */,
+				B11483B61FA9886300A73E3F /* ContactModel.swift */,
+				B11483B41FA95B3A00A73E3F /* ReadQRCodeViewController.swift */,
+				B187921C1FABCD090000534B /* ScanQRCodeViewController.swift */,
+				B11483B21FA93B8C00A73E3F /* ContactsTableViewController.swift */,
+				B11483AE1FA93A3B00A73E3F /* ProfileViewController.swift */,
+				B11483B01FA93A4D00A73E3F /* QRCodeViewController.swift */,
+				FB01267E1FA792FF0082753E /* DesignableUITextField.swift */,
+				FB0126801FA7931A0082753E /* DesignableUIButton.swift */,
+				FB01267C1FA78BD90082753E /* SignUpViewController.swift */,
+				FB01267A1FA787830082753E /* ForgotPasswordViewController.swift */,
+				FB1F49A41FA78363004E35A1 /* Assets.xcassets */,
+				FB1F49A61FA78363004E35A1 /* LaunchScreen.storyboard */,
+				FB1F49A91FA78363004E35A1 /* Info.plist */,
+			);
+			path = iLocate;
+			sourceTree = "<group>";
+		};
+		FB1F49B11FA78363004E35A1 /* iLocateTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F49B21FA78363004E35A1 /* iLocateTests.swift */,
+				FB1F49B41FA78363004E35A1 /* Info.plist */,
+			);
+			path = iLocateTests;
+			sourceTree = "<group>";
+		};
+		FB1F49BC1FA78363004E35A1 /* iLocateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F49BD1FA78363004E35A1 /* iLocateUITests.swift */,
+				FB1F49BF1FA78363004E35A1 /* Info.plist */,
+			);
+			path = iLocateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1F49991FA78363004E35A1 /* iLocate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1F49C21FA78363004E35A1 /* Build configuration list for PBXNativeTarget "iLocate" */;
+			buildPhases = (
+				F963E8D232C722FF8946121F /* [CP] Check Pods Manifest.lock */,
+				FB1F49961FA78363004E35A1 /* Sources */,
+				FB1F49971FA78363004E35A1 /* Frameworks */,
+				FB1F49981FA78363004E35A1 /* Resources */,
+				125AAC23699E3205B951B1CE /* [CP] Embed Pods Frameworks */,
+				4C42500D8350A8C9013C7E29 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLocate;
+			productName = iLocate;
+			productReference = FB1F499A1FA78363004E35A1 /* iLocate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB1F49AD1FA78363004E35A1 /* iLocateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1F49C51FA78363004E35A1 /* Build configuration list for PBXNativeTarget "iLocateTests" */;
+			buildPhases = (
+				C7243B88B64D3D72F1B7BE52 /* [CP] Check Pods Manifest.lock */,
+				FB1F49AA1FA78363004E35A1 /* Sources */,
+				FB1F49AB1FA78363004E35A1 /* Frameworks */,
+				FB1F49AC1FA78363004E35A1 /* Resources */,
+				C04310F1FF650AE882616623 /* [CP] Embed Pods Frameworks */,
+				5DCBDA40BA37BBF21A5A3A0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1F49B01FA78363004E35A1 /* PBXTargetDependency */,
+			);
+			name = iLocateTests;
+			productName = iLocateTests;
+			productReference = FB1F49AE1FA78363004E35A1 /* iLocateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB1F49B81FA78363004E35A1 /* iLocateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1F49C81FA78363004E35A1 /* Build configuration list for PBXNativeTarget "iLocateUITests" */;
+			buildPhases = (
+				D9CD3A0AF08EA713D536E9FE /* [CP] Check Pods Manifest.lock */,
+				FB1F49B51FA78363004E35A1 /* Sources */,
+				FB1F49B61FA78363004E35A1 /* Frameworks */,
+				FB1F49B71FA78363004E35A1 /* Resources */,
+				CC7F4255945B18C7906648BF /* [CP] Embed Pods Frameworks */,
+				2A8D21EEBA2294FFF08FA4E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1F49BB1FA78363004E35A1 /* PBXTargetDependency */,
+			);
+			name = iLocateUITests;
+			productName = iLocateUITests;
+			productReference = FB1F49B91FA78363004E35A1 /* iLocateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB1F49921FA78363004E35A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TeamTwo;
+				TargetAttributes = {
+					FB1F49991FA78363004E35A1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FB1F49AD1FA78363004E35A1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB1F49991FA78363004E35A1;
+					};
+					FB1F49B81FA78363004E35A1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB1F49991FA78363004E35A1;
+					};
+				};
+			};
+			buildConfigurationList = FB1F49951FA78363004E35A1 /* Build configuration list for PBXProject "iLocate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1F49911FA78363004E35A1;
+			productRefGroup = FB1F499B1FA78363004E35A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1F49991FA78363004E35A1 /* iLocate */,
+				FB1F49AD1FA78363004E35A1 /* iLocateTests */,
+				FB1F49B81FA78363004E35A1 /* iLocateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB1F49981FA78363004E35A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9758E3E1FDEF7CA008B3C98 /* GoogleService-Info.plist in Resources */,
+				FB1F49A81FA78363004E35A1 /* LaunchScreen.storyboard in Resources */,
+				FB1F49A51FA78363004E35A1 /* Assets.xcassets in Resources */,
+				FB1F49A31FA78363004E35A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1F49AC1FA78363004E35A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1F49B71FA78363004E35A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125AAC23699E3205B951B1CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iLocate/Pods-iLocate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLocate/Pods-iLocate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A8D21EEBA2294FFF08FA4E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLocateUITests/Pods-iLocateUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C42500D8350A8C9013C7E29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLocate/Pods-iLocate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCBDA40BA37BBF21A5A3A0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLocateTests/Pods-iLocateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04310F1FF650AE882616623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLocateTests/Pods-iLocateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7243B88B64D3D72F1B7BE52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLocateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7F4255945B18C7906648BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iLocateUITests/Pods-iLocateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9CD3A0AF08EA713D536E9FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLocateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F963E8D232C722FF8946121F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iLocate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB1F49961FA78363004E35A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11483B51FA95B3A00A73E3F /* ReadQRCodeViewController.swift in Sources */,
+				FB01267F1FA792FF0082753E /* DesignableUITextField.swift in Sources */,
+				B187921D1FABCD090000534B /* ScanQRCodeViewController.swift in Sources */,
+				FB0126811FA7931A0082753E /* DesignableUIButton.swift in Sources */,
+				B13952FE1FD7576800A320A2 /* NearMeChatViewController.swift in Sources */,
+				FB0126791FA785630082753E /* LoginViewController.swift in Sources */,
+				B1073F581FD8E5B400C18D36 /* LocationSearchTable.swift in Sources */,
+				B18792191FAB7EBB0000534B /* NearMeViewController.swift in Sources */,
+				FB1F499E1FA78363004E35A1 /* AppDelegate.swift in Sources */,
+				FB01267D1FA78BD90082753E /* SignUpViewController.swift in Sources */,
+				B11483B11FA93A4D00A73E3F /* QRCodeViewController.swift in Sources */,
+				B11483AF1FA93A3B00A73E3F /* ProfileViewController.swift in Sources */,
+				FB01267B1FA787830082753E /* ForgotPasswordViewController.swift in Sources */,
+				B11483B31FA93B8C00A73E3F /* ContactsTableViewController.swift in Sources */,
+				B11483B71FA9886300A73E3F /* ContactModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1F49AA1FA78363004E35A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1F49B31FA78363004E35A1 /* iLocateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1F49B51FA78363004E35A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1F49BE1FA78363004E35A1 /* iLocateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1F49B01FA78363004E35A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1F49991FA78363004E35A1 /* iLocate */;
+			targetProxy = FB1F49AF1FA78363004E35A1 /* PBXContainerItemProxy */;
+		};
+		FB1F49BB1FA78363004E35A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB1F49991FA78363004E35A1 /* iLocate */;
+			targetProxy = FB1F49BA1FA78363004E35A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB1F49A11FA78363004E35A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1F49A21FA78363004E35A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB1F49A61FA78363004E35A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB1F49A71FA78363004E35A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB1F49C01FA78363004E35A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB1F49C11FA78363004E35A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1F49C31FA78363004E35A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409E87B3CF8BA7CF00F2AC79 /* Pods-iLocate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GG2DK59X5;
+				INFOPLIST_FILE = iLocate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamtwo.iLocate11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1F49C41FA78363004E35A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D254B4633908B4C250E6AA /* Pods-iLocate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GG2DK59X5;
+				INFOPLIST_FILE = iLocate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamtwo.iLocate11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB1F49C61FA78363004E35A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27FEDC74F965C4017A14C62 /* Pods-iLocateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8Z2ANELXY;
+				INFOPLIST_FILE = iLocateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamtwo.iLocateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLocate.app/iLocate";
+			};
+			name = Debug;
+		};
+		FB1F49C71FA78363004E35A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BC7E5865409ED5DFE8FBB2 /* Pods-iLocateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8Z2ANELXY;
+				INFOPLIST_FILE = iLocateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamtwo.iLocateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iLocate.app/iLocate";
+			};
+			name = Release;
+		};
+		FB1F49C91FA78363004E35A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50289E2095F9D37A1F4F53CF /* Pods-iLocateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8Z2ANELXY;
+				INFOPLIST_FILE = iLocateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamtwo.iLocateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLocate;
+			};
+			name = Debug;
+		};
+		FB1F49CA1FA78363004E35A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC881520A4FE86B4B0B4AEF3 /* Pods-iLocateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8Z2ANELXY;
+				INFOPLIST_FILE = iLocateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamtwo.iLocateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iLocate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB1F49951FA78363004E35A1 /* Build configuration list for PBXProject "iLocate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1F49C01FA78363004E35A1 /* Debug */,
+				FB1F49C11FA78363004E35A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1F49C21FA78363004E35A1 /* Build configuration list for PBXNativeTarget "iLocate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1F49C31FA78363004E35A1 /* Debug */,
+				FB1F49C41FA78363004E35A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1F49C51FA78363004E35A1 /* Build configuration list for PBXNativeTarget "iLocateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1F49C61FA78363004E35A1 /* Debug */,
+				FB1F49C71FA78363004E35A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1F49C81FA78363004E35A1 /* Build configuration list for PBXNativeTarget "iLocateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1F49C91FA78363004E35A1 /* Debug */,
+				FB1F49CA1FA78363004E35A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB1F49921FA78363004E35A1 /* Project object */;
+}

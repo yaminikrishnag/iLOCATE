@@ -1,0 +1,6 @@
+framework module Pods_iLocateTests {
+  umbrella header "Pods-iLocateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
